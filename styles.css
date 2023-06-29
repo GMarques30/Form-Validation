@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #F0F2F5;
+}
+
+.container {
+    width: 90%;
+    max-width: 600px; /* Interessante a interação do max-width */
+    background-color: #FFFFFF;
+    margin: 1.2rem auto;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+}
+
+.form-header {
+    margin-bottom: 1rem;
+}
+
+.header-title {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.header-title, label, input {
+    color: #333;
+}
+
+.required {
+    color: #FF4747;
+}
+
+.error {
+    border-color:#FF4747;
+}
+
+.valid {
+    border-color: #37A137;
+}
+
+input {
+    margin-top: 0.5rem;
+}
+
+label, .error-message {
+    display: block;
+    font-size: 1rem;
+}
+
+.hide {
+    display: none;
+}
+
+label {
+    margin-top: 0.5rem;
+    font-weight: 500;
+}
+
+.error-message {
+    margin-top: 0.2rem;
+}
+
+input, button {
+    display: block;
+    outline: none;
+    width: 100%;
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    border: 1px solid #D0D0D0;
+    font-size: 1rem;
+}
+
+button {
+    font-size: 1.2rem;
+    background-color: #2B9217;
+    border: none;
+    color: #FFFFFF;
+    margin-top: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
